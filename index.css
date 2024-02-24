@@ -1,0 +1,1176 @@
+* {
+  margin: 0;
+  /* border: 1px solid red; */
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  height: 70px;
+  width: 100%;
+  background-color: #ffffff;
+}
+nav > h6 {
+  position: absolute;
+  top: 20%;
+  left: 2.5%;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  border-top: 3px solid black;
+}
+nav > h3 {
+  position: absolute;
+  font-size: 17px;
+  font-weight: 100;
+  color: #b3b3b8;
+  top: 35%;
+  left: 40%;
+}
+nav > select {
+  position: absolute;
+  font-size: 17px;
+  font-weight: 600;
+  top: 35%;
+  left: 47.5%;
+  outline: none;
+  border: none;
+}
+nav .icon {
+  cursor: pointer;
+  position: absolute;
+  font-size: 27px;
+  height: 45px;
+  border-bottom: 3px solid blue;
+  left: 58%;
+  top: 33%;
+  color: blue;
+}
+nav .fa-mobile {
+  color: black;
+  border: none;
+  left: 62%;
+  transition: 0.4s;
+}
+nav .fa-mobile:hover {
+  color: blue;
+  transition: 0.4s;
+  border-bottom: 3px solid blue;
+}
+
+.background {
+  position: relative;
+  height: 850px;
+  width: 100%;
+  background-image: url(./img/fresh__video-01_1400x.jpg);
+  background-size: 100% 100%;
+}
+
+.nav2 {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+.nav2 > img {
+  position: absolute;
+  height: 28px;
+  width: 130px;
+  top: 28%;
+  transition: 1s;
+  left: 7%;
+}
+.nav2 > img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 1s;
+}
+.nav2 > .mainul {
+  position: absolute;
+  left: 16%;
+  top: 33%;
+  font-size: 18px;
+  color: #b3b3b8;
+  list-style: none;
+}
+.nav2 > ul > li {
+  transition: 1s;
+  height: 40px;
+  float: left;
+  margin-left: 35px;
+}
+.nav2 > ul > li > i {
+  transition: 0.5s;
+}
+.nav2 > ul > li:hover {
+  color: #ffffff;
+  transition: 1s;
+}
+.nav2 > ul > li:hover i {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.shopp {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -27%;
+  height: 320px;
+  width: 1170px;
+  display: none;
+  background-color: #ffffff;
+}
+.ShopLi:hover .shopp {
+  transition: 1s;
+  cursor: pointer;
+  display: block;
+}
+.soap {
+  position: absolute;
+  list-style: none;
+  left: 2%;
+  top: 5%;
+}
+.soap > li {
+  color: rgb(66, 65, 65);
+  margin-top: 15px;
+}
+.soap > li:hover {
+  transition: 1s;
+  cursor: pointer;
+  color: black;
+}
+.feature {
+  position: absolute;
+  left: 25%;
+}
+.discover {
+  position: absolute;
+  left: 52%;
+}
+.flow {
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  background-color: #f6f6fc;
+  right: 0%;
+}
+.flow::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/fresh__imt-01_600x.jpg);
+  background-size: 100% 100%;
+  height: 75%;
+  width: 90%;
+  left: 5%;
+  top: 5%;
+}
+.shows {
+  position: absolute;
+  height: 40px;
+  width: 90%;
+  position: absolute;
+  top: 85%;
+  transition: 1s;
+  left: 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(207, 207, 9);
+  font-size: 15px;
+}
+.shows:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: yellow;
+}
+.nav2 .glass {
+  position: absolute;
+  top: 30%;
+  right: 11%;
+  font-size: 18px;
+  color: #b3b3b8;
+}
+.glass:hover {
+  color: #ffffff;
+  transition: 1s;
+}
+.nav2 .fa-gift {
+  right: 5%;
+}
+
+.li2 > .hair {
+  position: absolute;
+  background-color: #fffbfb;
+  margin-top: 15px;
+  left: -21%;
+  height: 400px;
+  display: none;
+  width: 1160px;
+}
+.li2:hover .hair {
+  transition: 1s;
+  cursor: pointer;
+  display: block;
+}
+
+.hairy {
+  position: absolute;
+  font-size: 17px;
+  list-style: none;
+  left: 2%;
+  top: 5%;
+}
+.hairy > li {
+  color: rgb(66, 65, 65);
+  margin-top: 15px;
+}
+.hairy > li:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
+.hair > .get {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  background-color: #eaeaf0;
+  left: 25%;
+}
+.get::after {
+  position: absolute;
+  content: "";
+  height: 70%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+  background-image: url(./img/fresh__megamenu-03_1600x.jpg);
+  background-size: 100% 100%;
+}
+.get > h2 {
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  font-size: 19px;
+  font-weight: 100;
+  color: black;
+}
+.get > .butt1 {
+  top: 88%;
+}
+.hair > .circle {
+  position: absolute;
+  left: 50%;
+}
+.circle::after {
+  background-image: url(./img/solid2_400x.jpg);
+}
+.circle > h2 {
+  transition: 1s;
+  color: #98989c;
+}
+.circle > h2:hover {
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.circle > h3 {
+  position: absolute;
+  top: 90%;
+  font-size: 17px;
+  left: 30%;
+  transition: 1s;
+  color: #98989c;
+}
+.circle > h3:hover {
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.hair > .circle2 {
+  position: absolute;
+  left: 75%;
+}
+.circle2::after {
+  background-image: url(./img/solid1_400x.jpg);
+}
+
+.li3 > .face {
+  position: absolute;
+  background-color: #f7f7f7;
+  margin-top: 16px;
+  left: -24%;
+  height: 400px;
+  display: none;
+  width: 1160px;
+}
+.li3:hover .face {
+  transition: 1s;
+  display: block;
+}
+.face > .box1 {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+}
+.box1::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/solid-soap-7_400x.jpg);
+  background-size: 100% 100%;
+  top: 3%;
+  left: 5%;
+  height: 70%;
+  width: 90%;
+}
+.box1 > h1 {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  font-size: 20px;
+  transition: 1s;
+  color: #98989c;
+  font-weight: 100;
+}
+.box1 > h1:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
+.box1 > h2 {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  font-size: 16px;
+  font-weight: 100;
+  transition: 1s;
+  color: #98989c;
+}
+.box1 > h2:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
+.face > .box2 {
+  position: absolute;
+  left: 25%;
+}
+.box2::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/solid-soap-3_400x.jpg);
+  background-size: 100% 100%;
+}
+.face > .box3 {
+  position: absolute;
+  left: 50%;
+}
+.box3::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/marble-soap-4_1200x.jpg);
+  background-size: 100% 100%;
+}
+.face > .box4 {
+  position: absolute;
+  left: 75%;
+}
+.box4::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/solid-soap-4_400x.jpg);
+  background-size: 100% 100%;
+}
+
+.li4 > .compani {
+  list-style: none;
+  padding: 20px;
+  position: absolute;
+  margin-top: 15px;
+  background-color: #ffffff;
+  display: none;
+}
+.compani > li {
+  margin-top: 5px;
+  transition: 1s;
+  color: #98989c;
+}
+.compani > li:hover {
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.li4:hover .compani {
+  transition: 1s;
+  cursor: pointer;
+  display: block;
+}
+
+.background > h1 {
+  position: absolute;
+  top: 80%;
+  font-size: 28px;
+  font-weight: 100;
+  color: #ffffff;
+  left: 3%;
+}
+.background > a {
+  position: absolute;
+  top: 90%;
+  font-size: 17px;
+  font-weight: 100;
+  transition: 1s;
+  color: black;
+  left: 3%;
+}
+a:hover {
+  transition: 1s;
+  color: #ffffff;
+}
+
+.local {
+  display: flex;
+  height: 350px;
+  width: 100%;
+  justify-content: center;
+}
+.local > div {
+  position: relative;
+  height: 100%;
+  width: 30%;
+  margin-left: 10px;
+}
+.truck > i {
+  position: absolute;
+  top: 15%;
+  left: 46%;
+  font-size: 50px;
+}
+.truck > h1 {
+  position: absolute;
+  top: 35%;
+  left: 24%;
+  font-size: 30px;
+}
+.truck > p {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  text-align: center;
+  font-size: 14px;
+}
+.truck > button {
+  position: absolute;
+  top: 70%;
+  left: 38%;
+  height: 35px;
+  width: 120px;
+  border:none;
+  background-color: yellow;
+  font-size: 15px;
+}
+.truck > button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 0, 0.562);
+}
+.pick > h1 {
+  left: 20%;
+}
+.delivery > h1 {
+  left: 11%;
+}
+.delivery > p {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.botan {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+}
+.botan > div {
+  top: 5%;
+  height: 90%;
+  width: 42%;
+  margin-left: 20px;
+}
+.botan > .bars {
+  position: relative;
+  width: 35%;
+}
+.bars > h4 {
+  position: absolute;
+  top: 10%;
+  left: 34%;
+  font-size: 17px;
+  font-weight: 100;
+}
+.bars > h1 {
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  font-size: 30px;
+}
+.bars > p {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  left: 15%;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.botan > .dog {
+  position: relative;
+  width: 50%;
+}
+.bars > button {
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  height: 35px;
+  width: 120px;
+  background-color: yellow;
+  font-size: 15px;
+  transition: 1s;
+}
+.bars > button:hover {
+  transition: 1s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 0, 0.562);
+}
+.bars .one {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+  background-color: #98989c;
+  top: 60%;
+  left: 44%;
+}
+.bars .two {
+  position: absolute;
+  left: 49%;
+  background-color: #626264;
+}
+.bars .three {
+  position: absolute;
+  background-color: #2e2e30;
+  left: 54%;
+}
+.botan .dog {
+  position: relative;
+  background-image: url(./img/fresh__slide-02_800x.jpg);
+  background-size: 100% 100%;
+}
+.dog .left {
+  position: absolute;
+  top: 90%;
+  right: 20%;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+.left:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.dog .fa-arrow-right {
+  right: 12%;
+}
+.water {
+  flex-direction: row-reverse;
+}
+.water > .bars > h1 {
+  left: 7%;
+  top: 30%;
+  font-size: 27px;
+  text-align: center;
+}
+.water > .bars > p {
+  left: 35%;
+  top: 43%;
+  font-size: 17px;
+}
+.water > .dog {
+  background-image: url(./img/fresh__imt-01_5000x.jpg);
+  background-size: 100% 100%;
+}
+
+.sea {
+  flex-direction: row-reverse;
+}
+.sea > .dog {
+  background-image: url(./img/marble-soap-4_600x.jpg);
+  background-size: 100% 100%;
+}
+.sea .staff {
+  left: 0%;
+  top: 5%;
+  background-color: rgb(202, 3, 202);
+  border: none;
+}
+.staff:hover {
+  cursor: pointer;
+  background-color: rgb(202, 3, 202);
+  opacity: 0.6;
+}
+.sea > .bars > h1 {
+  position: absolute;
+  top: 13%;
+  left: 0%;
+  font-size: 30px;
+}
+.sea > .bars > h4 {
+  position: absolute;
+  top: 18%;
+  left: 0%;
+  font-size: 19px;
+}
+.sea > .bars > p {
+  position: absolute;
+  top: 23%;
+  left: 0%;
+  line-height: 1.7;
+  font-size: 12.5px;
+  text-align: left;
+}
+.sea > .bars > h6 {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  font-weight: 100;
+  line-height: 1.7;
+  font-size: 12.5px;
+  text-align: left;
+}
+.sea > .bars > i {
+  position: absolute;
+  top: 42%;
+  left: 0%;
+  font-weight: 100;
+  line-height: 1.7;
+  font-size: 12.2px;
+  text-align: left;
+}
+.sea > .bars > input {
+  position: absolute;
+  top: 55%;
+  left: 7%;
+  height: 40px;
+  width: 200px;
+  border: 1px solid lightgray;
+  font-size: 12.2px;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  text-align: center;
+  outline: none;
+}
+.sea > .bars > .add1 {
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  height: 40px;
+  width: 48%;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  color: #626264;
+  background-color: transparent;
+  text-align: center;
+  transition: 1s;
+  outline: none;
+}
+.add1 > i {
+  transition: 1s;
+  color: black;
+}
+.bars > .add1:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #ffffff;
+  transition: 1s;
+}
+.add1:hover i {
+  color: white;
+  transition: 1s;
+}
+.sea > .bars > .add2 {
+  position: absolute;
+  left: 52%;
+}
+.sea > .bars > .add2 {
+  background-color: black;
+  border: none;
+  color: #ffffff;
+}
+
+.bars > .add2:hover {
+  cursor: pointer;
+  color: #626264;
+  background-color: transparent;
+  transition: 1s;
+}
+.bars > .twitter {
+  position: relative;
+  height: 40px;
+  width: 180px;
+  top: 77%;
+  border: 1px solid #626264;
+}
+.twitter > .onee {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(46, 127, 250);
+  border: 1px solid #626264;
+}
+.onee:hover {
+  cursor: pointer;
+  background-color: rgb(46, 127, 250);
+  color: #ffffff;
+  transition: 1s;
+}
+.twitter > .fa-facebook-f {
+  position: absolute;
+  left: 25%;
+  color: blue;
+  width: 18px;
+}
+.fa-facebook-f:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+.twitter > .fa-instagram {
+  position: absolute;
+  left: 50%;
+  color: red;
+  width: 18px;
+}
+.fa-instagram:hover {
+  background-color: red;
+  color: #ffffff;
+}
+.twitter > .fa-envelope {
+  position: absolute;
+  left: 75%;
+  color: rgb(245, 107, 52);
+  width: 18px;
+}
+.fa-envelope:hover {
+  background-color: rgb(245, 107, 52);
+  color: #ffffff;
+}
+
+.golden {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: space-between;
+}
+.golden > div {
+  position: relative;
+  height: 100%;
+  width: 23.8%;
+}
+.solid > .marig {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background-image: url(./img/solid-soap-7_400x.jpg);
+  background-size: 100% 100%;
+  transition: 1s;
+}
+.marig > .quick {
+  position: absolute;
+  top: 53%;
+  left: 35.5%;
+  height: 30px;
+  border: none;
+  transition: 1s;
+  width: 100px;
+  background-color: #ffffff;
+  /* display: none; */
+  opacity: 0;
+}
+.quick:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.marig .sale {
+  position: absolute;
+  top: 91%;
+  left: 0%;
+  height: 30px;
+  width: 60px;
+  background-color: rgb(5, 182, 5);
+  color: #ffffff;
+}
+.marig:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
+.marig:hover .quick {
+  transition: 1s;
+  top: 45%;
+  /* display: block; */
+  opacity: 1;
+}
+.solid > p {
+  position: absolute;
+  transition: 1s;
+  top: 84%;
+  left: 0%;
+  font-size: 14px;
+  color: #626264;
+}
+.solid > p:hover {
+  color: black;
+  transition: 1s;
+  cursor: pointer;
+}
+.solid > h5 {
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  font-size: 13px;
+  color: black;
+}
+
+.honey > .marig {
+  background-image: url(./img/solid-soap-6_400x.jpg);
+  background-size: 100% 100%;
+}
+.honey > h5 {
+  color: red;
+}
+.honey > h5 > del {
+  position: absolute;
+  width: 100px;
+  color: #c3c3c7;
+}
+.basil > .marig {
+  background-image: url(./img/solid-soap-5_400x.jpg);
+  background-size: 100% 100%;
+}
+.rain > .marig {
+  background-image: url(./img/solid-soap-3_400x.jpg);
+  background-size: 100% 100%;
+}
+
+.orange {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-image: url(./img/fresh__imto-01_5000x.jpg);
+  background-size: 100% 100%;
+}
+.orange > h1 {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 60px;
+  color: #ffffff;
+}
+.orange > h3 {
+  position: absolute;
+  top: 50%;
+  left: 34.4%;
+  font-weight: 100;
+  font-size: 34px;
+  color: #ffffff;
+}
+.orange > .now {
+  position: absolute;
+  top: 65%;
+  left: 38%;
+  height: 40px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: rgb(36, 36, 36);
+  transition: 1s;
+  font-size: 19px;
+}
+.now:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: black;
+  color: #ffffff;
+}
+.plus {
+  display: flex;
+  height: 350px;
+  width: 100%;
+}
+.plus > div {
+  position: relative;
+  left: 7%;
+  margin-left: 15px;
+  top: 15%;
+  height: 70%;
+  width: 20%;
+}
+.green {
+  position: relative;
+  background-image: url(./img/fresh__gallery-01_2000x.jpg);
+  background-size: 100% 100%;
+}
+.green::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8));
+  display: none;
+}
+.green:hover::after {
+  display: block;
+}
+.green > .iconred {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  font-size: 40px;
+  color: #ffffff;
+  display: none;
+}
+.green:hover .iconred {
+  display: block;
+  z-index: 1;
+}
+.faced {
+  position: relative;
+  background-image: url(./img/fresh__gallery-04_2000x.jpg);
+  background-size: 100% 100%;
+}
+.wateer {
+  position: relative;
+  background-image: url(./img/fresh__gallery-03_2000x.jpg);
+  background-size: 100% 100%;
+}
+.flower {
+  position: relative;
+  background-image: url(./img/fresh__gallery-02_2000x.jpg);
+  background-size: 100% 100%;
+}
+
+.cruelty {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: #ebebeb;
+}
+.cruelty > .rabbit {
+  position: absolute;
+  top: 35%;
+  left: 12%;
+  font-size: 17px;
+  list-style: none;
+}
+.rabbit > li {
+  width: 170px;
+  float: left;
+}
+.rabbit > li > h3 {
+  display: inline;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.black {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.black > .care {
+  position: relative;
+  height: 100%;
+  width: 22%;
+}
+.care > h1 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 100;
+  color: #ffffff;
+  top: 5%;
+  left: 5%;
+}
+.care > .fact {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 15px;
+  color: #98989c;
+  list-style: none;
+  transition: 1s;
+  margin-top: 5px;
+}
+.fact > li:hover {
+  cursor: pointer;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.black > .more {
+  position: relative;
+  height: 100%;
+  width: 22%;
+}
+.more > .enve {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transition: 1s;
+  font-size: 22px;
+  color: #98989c;
+}
+.more > i:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: #ffffff;
+}
+.more > .fa-twitter {
+  position: absolute;
+  left: 13%;
+}
+.more > .fic {
+  position: absolute;
+  left: 21%;
+}
+.fic:hover {
+  background-color: none;
+}
+.more > .fa-instagram {
+  position: absolute;
+  left: 27%;
+}
+.more > .fa-snapchat {
+  position: absolute;
+  left: 34%;
+}
+.more > .fa-tiktok {
+  position: absolute;
+  left: 40%;
+}
+
+.black > .news {
+  position: relative;
+  height: 100%;
+  width: 30%;
+}
+
+.news > h1 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 100;
+  color: #ffffff;
+  top: 5%;
+  left: 5%;
+}
+.news > p {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 100;
+  color: #ffffff;
+  top: 24%;
+  left: 5%;
+}
+.news > h2 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 100;
+  color: #ffffff;
+  top: 40%;
+  left: 5%;
+}
+.news > input {
+  position: absolute;
+  font-size: 17px;
+  height: 35px;
+  width: 250px;
+  font-weight: 100;
+  outline: none;
+  background-color: #ffffff;
+  top: 52%;
+  left: 5%;
+}
+
+.news > button {
+  position: absolute;
+  top: 52%;
+  left: 64%;
+  height: 35px;
+  width: 125px;
+  border:none;
+  background-color: yellow;
+  font-size: 15px;
+  transition: 1s;
+}
+.news > button:hover {
+  transition: 1s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 0, 0.562);
+}
+footer {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+footer > p {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  font-size: 18x;
+  color: #626264;
+}
+footer > select {
+  position: absolute;
+  top: 30%;
+  outline: none;
+  font-size: 16px;
+  height: 50px;
+  width: 150px;
+  right: 10%;
+}
+footer > .visa {
+  position: absolute;
+  top: 70%;
+  right: 18%;
+  height: 25px;
+  width: 35px;
+}
+footer > .master {
+  position: absolute;
+  right: 15%;
+  top: 70%;
+  height: 25px;
+  width: 35px;
+}
+footer > .Payo {
+  position: absolute;
+  right: 12%;
+  top: 70%;
+  height: 25px;
+  width: 35px;
+}
+footer > .discover {
+  position: absolute;
+left:88.5%;  top: 70%;
+  height: 25px;
+  width: 35px;
+}
